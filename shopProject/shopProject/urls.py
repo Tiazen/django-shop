@@ -17,9 +17,11 @@ from django.contrib import admin
 from django.urls import path
 
 import users.urls
+import shop.urls
 
 urlpatterns = [
     
 ]
 
 urlpatterns += users.urls.urlpatterns
+urlpatterns += shop.urls.urlpatterns
